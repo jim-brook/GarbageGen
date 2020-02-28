@@ -1,0 +1,22 @@
+Install-Package MongoDB.Driver -Version 2.9.3
+
+sudo systemctl status mongodb
+
+sudo tail -f /var/log/mongodb/mongodb.log
+
+http://mongodb.github.io/mongo-csharp-driver/2.9/getting_started/quick_tour/
+
+https://stackoverflow.com/questions/57002212/basic-mongodb-query-in-c-sharp-application
+
+https://stackoverflow.com/questions/41550343/c-sharp-mongodb-driver-need-simple-code-to-read-query-collection
+
+gedit /etc/mongodb.conf -> add current ip addr
+
+sudo systemctl restart mongodb
+
+C:\projects\Test-Trash\GarbageGen\GarbageGen\bin\Debug\auto_gen_data.csv
+mongodb://192.168.199.128:27017
+
+Install-Package Npgsql -Version 4.0.10
+ sudo service postgresql restart
+"Host=192.168.199.128;Username=postgres;Password=x;Database=OfflineUploadDB";
