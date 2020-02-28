@@ -112,7 +112,8 @@ namespace GarbageGen
         }
         public void MongoOut(string dbConnectionString, int NumberOfDataRows)
         {
-            
+            //C:\projects\Test-Trash\GarbageGen\GarbageGen\bin\x64\Debug\auto_gen_data.csv
+            // mongodb://192.168.199.130:27017 
             try
             {
                 var client = new MongoClient(dbConnectionString);
